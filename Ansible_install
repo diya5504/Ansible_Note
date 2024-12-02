@@ -7,3 +7,4 @@ $ sudo add-apt-repository --yes --update ppa:ansible/ansible
 $ sudo apt install ansible
 $ ansible -- version
 ........................................................
+note using EC2 instance public id and keypair install
