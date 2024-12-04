@@ -219,20 +219,4 @@ ansible_ssh_private_key_file=/home/ec2-user/<YOUR-PEM-FILE-NAME>.pem
 Install/uninstall Apache server to node1.
 ansible -i inventory -b -m yum -a "name=httpd state=present" node1 
 ansible -i inventory -b -m yum -a "name=httpd state=absent" node1 
-About
-No description, website, or topics provided.
-Resources
- Readme
- Activity
-Stars
- 0 stars
-Watchers
- 1 watching
-Forks
- 0 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Footer
+
